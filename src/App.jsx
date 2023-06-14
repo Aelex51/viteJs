@@ -7,11 +7,10 @@ import PokemonCard from "./components/PokemonCard.js";
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-          <div>< PokemonCard /></div>
+          < PokemonCard />
         {/*<a href="https://vitejs.dev" target="_blank">*/}
         {/*  <img src={viteLogo} className="logo" alt="Vite logo" />*/}
         {/*</a>*/}
