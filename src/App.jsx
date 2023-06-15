@@ -2,8 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './components/PokemonCard.js';
-import PokemonCard from "./components/PokemonCard.js";
+import './components/PokemonCard.jsx';
+import PokemonCard from "./components/PokemonCard.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
